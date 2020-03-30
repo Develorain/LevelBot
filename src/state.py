@@ -12,6 +12,13 @@ class State(Enum):
     IN_GAME_WAIT_MODE = 8
     IN_GAME_ATTACK_MODE = 16
     IN_GAME_HEAL_MODE = 17
+    SHOP = 21
+    ITEM1 = 22
+    ITEM2 = 23
+    ITEM3 = 27
+    CLOSE_SHOP = 24
+    LOCK_SCREEN = 25
+    CANT_BUY_ITEM = 26
     ATTACK_MODE = 9
     HEAL_MODE = 10
     ACCEPT_VICTORY = 13
