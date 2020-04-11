@@ -28,7 +28,7 @@ def determine_current_state():
     o = imagesearcharea("loadingscreen.png", 0, 0, 1920, 1080, 0.8, im)
     
     p = imagesearcharea("shop.png", 0, 0, 1920, 1080, 0.8, im)
-    q = imagesearcharea("item1large.png", 0, 0, 1920, 1080, 0.95, im)
+    q = imagesearcharea("doran.png", 0, 0, 1920, 1080, 0.95, im)
     r = imagesearcharea("item2large.png", 0, 0, 1920, 1080, 0.85, im)
     u = imagesearcharea("item3large.png", 0, 0, 1920, 1080, 0.95, im)
 
@@ -136,7 +136,7 @@ def main():
             time.sleep(1)
 
         elif state == State.ITEM1:
-            click_image("item1large.png", position, "right", 0.2, offset=5)
+            click_image("doran.png", position, "right", 0.2, offset=5)
 
             pos2 = imagesearcharea("closeshop.png", 0, 0, 1920, 1080, 0.8)
 
