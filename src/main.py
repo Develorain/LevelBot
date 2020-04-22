@@ -4,7 +4,6 @@ import keyboard
 import random
 
 def determine_current_state():
-    time1 = time.clock()
     im = region_grabber((0, 0, 1920, 1080))
     
     a = imagesearcharea("play.png", 0, 0, 1920, 1080, 0.95, im)
